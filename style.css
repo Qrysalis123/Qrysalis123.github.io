@@ -1,0 +1,136 @@
+:root {
+  --bg: #000916;
+  --b1: #a6deff;
+  --b4: #a6deff;
+  --fg: #a6deff;
+  --g1: #126ca0;
+  --g2: #003b6b;
+  --s1: #0073a8;
+  --s2: #001938;
+  --bf: #a6deff;
+  --link-focus: #70cbff;
+  --link-hover: #4fb8ff;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 12px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  padding-bottom: 40px;
+}
+
+a, a:focus, a:active, a:visited {
+  color: var(--link-focus);
+  outline: none;
+  text-decoration: underline dotted;
+}
+
+a:hover {
+  color: var(--link-hover);
+  text-decoration: underline dotted;
+}
+
+.weeeeeee {
+  width: 100%;
+  max-width: 600px;
+  aspect-ratio: 3/1;
+  height: 200px;
+  margin: 40px auto 20px auto;
+  display: flex;
+  background:
+    radial-gradient(ellipse 137% 77% at -3% 137%, var(--g2) 77%, var(--g1) 97%, transparent 100%),
+    linear-gradient(11deg, var(--s1) 0%, var(--s2) 77%);
+  background-size: 100% 100%;
+}
+
+.weeeeeee-butterfly {
+  width: 33.333%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weeeeeee-butterfly pre {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 3px;
+  font-weight: bold;
+  color: var(--bf);
+  text-align: left;
+  overflow: hidden;
+  white-space: pre;
+}
+
+#content {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+#content h1 {
+  font-size: 17px;
+  font-family: "Kaisei HarunoUmi", serif;
+  color: var(--b1);
+  font-weight: bold;
+  margin: 0 0 10px 0;
+}
+
+#content h2 {
+  color: var(--b4);
+  font-size: 12px;
+  margin: 17px 0 5px 0;
+}
+
+#content ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#content ul li {
+  position: relative;
+  padding-left: 0;
+  margin: 2px 0;
+}
+
+#content ul li::before {
+  content: "✧ ";
+  color: var(--fg);
+}
+
+#content img, #content video {
+  max-width: 70%;
+  max-height: 400px;
+  object-fit: contain;
+  display: block;
+  margin: 10px 0;
+}
+
+/* Markdown-specific video and image styling */
+.markdown-video {
+  width: 50% !important;
+  max-width: 50% !important;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  margin: 10px 0;
+  border: none;
+  outline: none;
+}
+
+.markdown-image {
+  width: 50% !important;
+  max-width: 50% !important;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  margin: 10px 0;
+}
+
