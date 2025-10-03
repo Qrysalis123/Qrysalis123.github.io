@@ -5,8 +5,16 @@ learning...
 
 ..........................
 
-## Aug 2025
+## Sep 2025
 
+* [Introduction to Robotics](https://marsuniversity.github.io/ece387/Introduction-to-Robotics-Craig.pdf)
+* [jpl nasa mechanical engineering resources](https://jpl-nasa.libguides.com/subject-guides/mechanical-engineering)
+* learn basic robotics stuff like manipulator kinematics, high level control, torques,
+* 3js, onshape
+* cv for imitation learning
+
+
+## Aug 2025
 
 * go through fast.ai, learn pytorch
 * [Deep Learning by Bishop](https://www.bishopbook.com/)
