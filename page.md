@@ -6,7 +6,6 @@ learning...
 ..........................
 
 ## Sep 2025
-
 * [Introduction to Robotics](https://marsuniversity.github.io/ece387/Introduction-to-Robotics-Craig.pdf)
 * [jpl nasa mechanical engineering resources](https://jpl-nasa.libguides.com/subject-guides/mechanical-engineering)
 * learn basic robotics stuff like manipulator kinematics, high level control, torques,
@@ -39,7 +38,6 @@ learning...
 * [Tesla Full Self Driving explained by Andrej Karpathy](https://www.youtube.com/watch?v=3SypMvnQT_s&ab_channel=TeslaOwnersOnline)
 * [I Built a Robot Dog Using... Rope?](https://www.youtube.com/watch?v=8s9TjRz01fo&t=1119s&ab_channel=AaedMusa)
 * [The Physical Turing Test: Jim Fan on Nvidia's Roadmap for Embodied AI](https://www.youtube.com/watch?v=_2NijXqBESI&t=33s&ab_channel=SequoiaCapital)
-* [马鹿Blyat](https://www.youtube.com/@blyat1350)
 
 ![Robot Hand CAD](ass/cadhand.png)
 
